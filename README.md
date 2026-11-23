@@ -153,3 +153,5 @@ git clone https://github.com/LulliaCare/LulliaCare-Backend.git
 
 本仓库是 LulliaCare 的公开展示入口，重点呈现产品思考、技术架构与工程实践。源代码分别维护在移动端和后端仓库中。
 
+本展示仓库保留所有权利，公开可见不代表授予开源许可，详见 [LICENSE](LICENSE)。
+
