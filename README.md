@@ -9,8 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/LulliaCare/LulliaCare-APP">移动端源码</a> ·
-  <a href="https://github.com/LulliaCare/LulliaCare-Backend">后端源码</a> ·
   <a href="docs/项目介绍.md">项目介绍</a> ·
   <a href="docs/技术架构.md">技术架构</a> ·
   <a href="docs/面试导览.md">面试导览</a>
@@ -115,17 +113,9 @@ LulliaCare 处理的是敏感情绪表达，因此安全不是附加功能，而
 
 ## 本地运行
 
-完整项目由两个源码仓库组成：
+完整项目由独立的 Flutter 移动端仓库与 FastAPI 后端仓库组成。后端可通过 Docker Compose 启动；移动端使用 Flutter 3.44.3。
 
-```bash
-git clone https://github.com/LulliaCare/LulliaCare-APP.git
-git clone https://github.com/LulliaCare/LulliaCare-Backend.git
-```
-
-后端可通过 Docker Compose 启动；移动端需要 Flutter 3.44.3 或兼容版本。详细步骤分别见：
-
-- [移动端运行说明](https://github.com/LulliaCare/LulliaCare-APP#本地运行)
-- [后端运行说明](https://github.com/LulliaCare/LulliaCare-Backend#快速开始)
+两个源码仓库目前仍在进行公开前的密钥、历史记录与素材授权检查，因此暂不向匿名访客开放。面试评审需要查看源码时，可以联系项目维护者获取授权；完成安全整理后，本节将更新为公开仓库地址和一键启动命令。
 
 ## 项目状态
 
@@ -140,10 +130,8 @@ git clone https://github.com/LulliaCare/LulliaCare-Backend.git
 | 评论与收藏 | MVP 暂不包含 |
 | 图片内容审核与对象存储 | 预留接口，规划中 |
 
-## 仓库导航
+## 文档导航
 
-- [移动端源码：LulliaCare-APP](https://github.com/LulliaCare/LulliaCare-APP)
-- [后端源码：LulliaCare-Backend](https://github.com/LulliaCare/LulliaCare-Backend)
 - [产品与用户旅程](docs/项目介绍.md)
 - [技术架构与关键设计](docs/技术架构.md)
 - [隐私与安全](docs/隐私与安全.md)
@@ -151,7 +139,7 @@ git clone https://github.com/LulliaCare/LulliaCare-Backend.git
 
 ## 说明
 
-本仓库是 LulliaCare 的公开展示入口，重点呈现产品思考、技术架构与工程实践。源代码分别维护在移动端和后端仓库中。
+本仓库是 LulliaCare 的公开展示入口，重点呈现产品思考、技术架构与工程实践。源代码分别维护在移动端和后端仓库中，公开前会先完成安全与授权检查。
 
 本展示仓库保留所有权利，公开可见不代表授予开源许可，详见 [LICENSE](LICENSE)。
 
