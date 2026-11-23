@@ -37,7 +37,7 @@
   </a>
 </p>
 
-<p align="center"><strong>点击图片观看约 64 秒产品演示</strong></p>
+<p align="center"><strong>点击观看产品演示</strong></p>
 
 演示覆盖登录、AI 角色与对话、社区浏览、创建小组和小组交流。视频使用测试账号和虚构内容；其中“轻音”是项目早期原型名称，现统一使用 LulliaCare。
 
