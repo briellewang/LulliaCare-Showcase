@@ -1,0 +1,40 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="30" x2="1190" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6EEFF"/>
+      <stop offset="0.52" stop-color="#FFF8F2"/>
+      <stop offset="1" stop-color="#EEF8F6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7C5CE7"/>
+      <stop offset="1" stop-color="#C276B7"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#5B477C" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="640" rx="40" fill="url(#bg)"/>
+  <circle cx="1080" cy="105" r="235" fill="#D9C7FF" fill-opacity="0.36"/>
+  <circle cx="1178" cy="563" r="180" fill="#BFE7DF" fill-opacity="0.42"/>
+  <circle cx="95" cy="595" r="190" fill="#FFD9CF" fill-opacity="0.30"/>
+  <rect x="92" y="86" width="90" height="90" rx="28" fill="url(#accent)" filter="url(#shadow)"/>
+  <path d="M124 132C124 116.536 136.536 104 152 104C167.464 104 180 116.536 180 132C180 158 152 174 152 174C152 174 124 158 124 132Z" fill="white" fill-opacity="0.96"/>
+  <circle cx="142" cy="130" r="4" fill="#8A67DC"/>
+  <circle cx="162" cy="130" r="4" fill="#8A67DC"/>
+  <path d="M141 143C147 149 157 149 163 143" stroke="#8A67DC" stroke-width="4" stroke-linecap="round"/>
+  <text x="92" y="270" fill="#2F2740" font-size="84" font-weight="700" font-family="PingFang SC, Noto Sans CJK SC, Arial, sans-serif">LulliaCare</text>
+  <text x="96" y="340" fill="#645B70" font-size="34" font-weight="500" font-family="PingFang SC, Noto Sans CJK SC, Arial, sans-serif">匿名情绪支持 · AI 陪伴 · 同境社区</text>
+  <text x="96" y="414" fill="#81778C" font-size="25" font-family="PingFang SC, Noto Sans CJK SC, Arial, sans-serif">一个面向孕产期女性的安全表达与温柔连接空间</text>
+  <g filter="url(#shadow)">
+    <rect x="790" y="170" width="330" height="320" rx="48" fill="white" fill-opacity="0.88"/>
+  </g>
+  <rect x="840" y="230" width="224" height="54" rx="27" fill="#F0E9FF"/>
+  <circle cx="871" cy="257" r="13" fill="#8A67DC"/>
+  <rect x="840" y="306" width="166" height="46" rx="23" fill="#FFF0EB"/>
+  <circle cx="872" cy="329" r="12" fill="#E89A7D"/>
+  <rect x="840" y="374" width="244" height="54" rx="27" fill="#EAF7F4"/>
+  <circle cx="872" cy="401" r="13" fill="#66B9A7"/>
+  <path d="M1120 430C1172 404 1190 349 1168 306" stroke="#9E84E8" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 20"/>
+  <circle cx="1164" cy="292" r="24" fill="#9E84E8"/>
+</svg>
+

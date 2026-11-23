@@ -1,0 +1,40 @@
+<svg width="1200" height="690" viewBox="0 0 1200 690" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7E62DE"/><stop offset="1" stop-color="#A871C0"/>
+    </linearGradient>
+    <filter id="s" x="-15%" y="-20%" width="130%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#382C50" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="1200" height="690" rx="28" fill="#FBFAFD"/>
+  <text x="60" y="72" fill="#302940" font-size="34" font-weight="700" font-family="PingFang SC, Arial, sans-serif">LulliaCare 系统架构</text>
+  <g filter="url(#s)">
+    <rect x="60" y="130" width="240" height="420" rx="28" fill="white"/>
+    <rect x="60" y="130" width="240" height="82" rx="28" fill="url(#head)"/>
+    <rect x="60" y="184" width="240" height="28" fill="url(#head)"/>
+  </g>
+  <text x="180" y="181" text-anchor="middle" fill="white" font-size="26" font-weight="700" font-family="PingFang SC, Arial, sans-serif">Flutter 移动端</text>
+  <g fill="#F4F0FF"><rect x="90" y="246" width="180" height="58" rx="16"/><rect x="90" y="324" width="180" height="58" rx="16"/><rect x="90" y="402" width="180" height="58" rx="16"/><rect x="90" y="480" width="180" height="42" rx="14"/></g>
+  <g fill="#554C65" font-size="20" text-anchor="middle" font-family="PingFang SC, Arial, sans-serif"><text x="180" y="282">业务功能页面</text><text x="180" y="360">共享组件与主题</text><text x="180" y="438">API 网关与模型</text><text x="180" y="507">本地状态</text></g>
+  <path d="M318 340H430" stroke="#8D72DF" stroke-width="6" stroke-linecap="round"/><path d="M414 326L430 340L414 354" stroke="#8D72DF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="374" y="315" text-anchor="middle" fill="#756A82" font-size="16" font-family="PingFang SC, Arial, sans-serif">HTTPS / JSON</text>
+  <g filter="url(#s)">
+    <rect x="450" y="130" width="330" height="420" rx="28" fill="white"/>
+    <rect x="450" y="130" width="330" height="82" rx="28" fill="#463A5A"/>
+    <rect x="450" y="184" width="330" height="28" fill="#463A5A"/>
+  </g>
+  <text x="615" y="181" text-anchor="middle" fill="white" font-size="26" font-weight="700" font-family="PingFang SC, Arial, sans-serif">FastAPI 服务</text>
+  <g fill="#F7F5FA"><rect x="486" y="240" width="258" height="52" rx="14"/><rect x="486" y="308" width="258" height="52" rx="14"/><rect x="486" y="376" width="258" height="52" rx="14"/><rect x="486" y="444" width="258" height="70" rx="14"/></g>
+  <g fill="#554C65" font-size="19" text-anchor="middle" font-family="PingFang SC, Arial, sans-serif"><text x="615" y="273">API 路由与鉴权</text><text x="615" y="341">用户 / 社区 / 小组服务</text><text x="615" y="409">匿名化与内容审核</text><text x="615" y="474">LangGraph AI 编排</text><text x="615" y="499" font-size="15">安全分流 · 记忆 · 角色回复</text></g>
+  <path d="M798 340H858" stroke="#8D72DF" stroke-width="6" stroke-linecap="round"/><path d="M842 326L858 340L842 354" stroke="#8D72DF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#s)">
+    <rect x="878" y="130" width="262" height="420" rx="28" fill="white"/>
+    <rect x="878" y="130" width="262" height="82" rx="28" fill="#5B9E91"/>
+    <rect x="878" y="184" width="262" height="28" fill="#5B9E91"/>
+  </g>
+  <text x="1009" y="181" text-anchor="middle" fill="white" font-size="26" font-weight="700" font-family="PingFang SC, Arial, sans-serif">数据与基础设施</text>
+  <g fill="#EEF8F6"><rect x="914" y="240" width="190" height="58" rx="16"/><rect x="914" y="318" width="190" height="58" rx="16"/><rect x="914" y="396" width="190" height="58" rx="16"/><rect x="914" y="474" width="190" height="48" rx="16"/></g>
+  <g fill="#416D65" font-size="20" text-anchor="middle" font-family="PingFang SC, Arial, sans-serif"><text x="1009" y="276">MySQL 8</text><text x="1009" y="354">Redis 7</text><text x="1009" y="432">模型服务</text><text x="1009" y="505">Alembic</text></g>
+  <rect x="60" y="592" width="1080" height="54" rx="18" fill="#F1ECFA"/>
+  <text x="600" y="627" text-anchor="middle" fill="#685B7A" font-size="20" font-family="PingFang SC, Arial, sans-serif">核心原则：匿名优先 · 安全前置 · 用户可控记忆 · 模型厂商解耦 · 主链路可降级</text>
+</svg>
+

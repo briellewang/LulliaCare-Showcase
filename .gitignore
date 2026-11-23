@@ -1,0 +1,12 @@
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.env
+.env*
+!*.env.example
+assets/demo/*.mp4
+assets/demo/*.mov
+assets/demo/*.m4v
+!assets/demo/README.md
+
